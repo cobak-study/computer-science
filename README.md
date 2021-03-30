@@ -12,7 +12,7 @@
     $ git checkout -b {본인이름}(예시: taehun.lee)
     ```
 3. MD(Markdown) 혹은 PDF, PPT와 같이 Github 상에서 Preview로 바로 볼 수 있는 형태의 확장자로 학습한 내용에 대해 글을 작성합니다.
-4. 작성한 자료를 해당 주제에 맞는 디렉토리에 위치시킵니다.
+4. 작성한 자료를 해당 주제에 맞는 디렉토리에 위치시킵니다.(디렉토리가 없다면 디렉토리를 생성해도 됩니다.)
 \
 `예:) Heap에 대해 학습했다면 DataStructure
 5. 변경사항을 git stage 상에 올리고 commit 한다음 push 합니다.
