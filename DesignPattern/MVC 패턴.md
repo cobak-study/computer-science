@@ -9,7 +9,7 @@ Model은 Controller가 호출할 때, 요청에 맞는 역할을 수행한다. �
 
 ## View
 
-Controller로부터 받은 Model의 결괏값을 가지고 사용자에게 출력할 화면을 제작한다. 화면에 표시되는 부분으로, 추출한 데이터나 일반적인 텍스트 데이터를 표시하거나 입력 폼 또는 사용자와의 상호작용을 위한 인터페이스를 표시하는 영역이다.
+Controller로부터 받은 Model의 결괏값을 가지고 사용자에게 출력할 화면을 제작한다. 화면에 표시되는 부분으로, 추출한 데이터나 일반적인 텍스트 데이터를 표시하거나 입력 폼 또는 사용자와의 상호작용을 위한 인터페이스를 표시하는 영역이다.  
 
 ## Controller
 
@@ -29,7 +29,7 @@ Controller와 View가 분리되어 있는 구현 방식이다. 웹 브라우저 
 
 # MVC 패턴의 흐름
 
-![MVC 패턴의 흐름](https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjVfMjUw/MDAxNDkwNDM4NzI4MTIy.4ZtITJJKJW_Nj1gKST0BhKMAzqmMaYIj9PobYJMFD4Ig.xTHT-0qyRKXsA4nZ2xKPNeCxeU2-tLIc-4oyrWq5WBgg.PNG.jhc9639/mvc_role_diagram.png?type=w800 "MVC 패턴의 흐름")
+![MVC 패턴의 흐름](https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjVfMjUw/MDAxNDkwNDM4NzI4MTIy.4ZtITJJKJW_Nj1gKST0BhKMAzqmMaYIj9PobYJMFD4Ig.xTHT-0qyRKXsA4nZ2xKPNeCxeU2-tLIc-4oyrWq5WBgg.PNG.jhc9639/mvc_role_diagram.png?type=w800 "MVC 패턴의 흐름")  
 
 1. 사용자가 원하는 기능을 Controller에 요청한다.
 2. 요청을 받은 Controller는 알맞은 Model에게 비즈니스 로직을 수행을 맡긴다.
