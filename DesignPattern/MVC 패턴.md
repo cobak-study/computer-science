@@ -23,7 +23,7 @@ Controller에 View를 같이 구현하는 방식이다. 사용자의 요청을 J
 
 # MVC Model2
 
-![Model2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Iog2GqYDVG585L40ttYVhSw3sKMEWOhfUg&usqp=CAU "Model2")
+![Model2](https://user-images.githubusercontent.com/67519366/100101189-43636100-2ea5-11eb-8bfd-1a63e145f22c.PNG "Model2")
 
 Controller와 View가 분리되어 있는 구현 방식이다. 웹 브라우저 사용자의 요청을 Servlet이 받는다. Servlet은 요청을 View로 보여줄 것인지, Model로 보내줄 것인지 정하여 전송한다. 여기서 View 페이지는 사용자에게 보여주는 역할만 담당하고 실질적인 기능의 부분은 Model에서 담당한다. 따라서 디자이너와 개발자의 분업이 가능하며 유지 보수에 유리하다. MVC 패턴은 보통 Model2 방식을 의미한다.
 
